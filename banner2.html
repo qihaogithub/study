@@ -1,0 +1,48 @@
+<!DOCTYPE html>  
+<html>  
+  
+<head>  
+    <title>Banner Example</title>  
+    <style>  
+      .banner {
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      }
+
+      .foreground,
+      .background {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      }
+
+      .foreground {
+      height: 424px; /* 384px + 40px */
+      width: auto;
+      }
+
+      .background {
+      height: 344px;
+      width: auto;
+      }
+
+      /* @media (max-width: 768px) {
+      .foreground,
+      .background {
+        left: 0;
+        transform: none;
+      } */
+      
+    </style>  
+</head>  
+  
+<body>  
+    <div class="banner">
+      <img class="foreground" src="./图片/banner_前景图.png" alt="Foreground Image">
+      <img class="background" src="./图片/banner_背景图.png" alt="Background Image">
+    </div>
+</body>  
+  
+</html>

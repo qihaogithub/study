@@ -1,0 +1,42 @@
+背景图发生了变形，如何不让背景图变形
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Banner Example</title>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .banner {
+      margin: 100px auto;
+      width: 335px;
+      height: 192px;
+      background-image: url(./图片/banner_背景图.png);
+      background-repeat: no-repeat; /* 不重复背景图 */  
+      background-size: cover; /* 背景图覆盖整个容器 */  
+      background-position: center; /* 背景图居中 */ 
+      /* background-color: pink; */
+      /* overflow: hidden; */
+      display: flex; /* 使用 flex 布局 */  
+      justify-content: center; /* 水平居中 */  
+
+    }
+    .image {
+        max-width: 100%; /* 防止图片超出容器宽度 */  
+        height: auto; /* 保持图片的宽高比 */ 
+        object-fit: cover;  /* 尝试让图片覆盖整个容器 */
+    }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img class="image" src="./图片/banner_前景图.png" alt="Foreground Image">
+    </div>
+</body>
+
+</html>
+
