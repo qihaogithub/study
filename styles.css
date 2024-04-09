@@ -15,11 +15,18 @@ body, html {
 
  .phone {
     width: 370px;
+    height: 812px;
+    margin: 30px auto;
+    background-color: #FFF;
     /* background-color: aqua; */
     flex-direction:column; /* 修改主轴方向*/
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: hidden; /* 隐藏水平滚动条并阻止水平滚动 */
+    overflow-y: auto; /* 允许内容在垂直方向上滚动 */
 }
-
+.phone::-webkit-scrollbar {
+    display: none; /* 隐藏滚动条 */
+  }
 
 .phone-banner-container {
     position: relative;
@@ -146,7 +153,8 @@ body, html {
 .other{
     width: 375px;
 }
+
 .other img {
     width: 335px;
     margin-left: 16px;
-}
+    }   

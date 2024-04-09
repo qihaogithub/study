@@ -37,15 +37,9 @@
         <img class="phone-foreground-image" src="./images/banner_前景图.png" alt="Foreground Image">
       </div>
       <div class="miniBannerPhone">
-          <img class="miniBanner" src="./images/小banner/Property 1=01.png"/>
-          <img
-            class="miniBanner"
-            src="./images/小banner/Property 1=02.png"
-          />
-          <img
-            class="miniBanner"
-            src="./images/小banner/Property 1=03.png"
-          />
+          <img class="miniBanner" src="./images/小banner/Property 1=01.png"/ alt="Mini Banner">
+          <img class="miniBanner" src="./images/小banner/Property 1=02.png"/>
+          <img class="miniBanner" src="./images/小banner/Property 1=03.png"/>
       </div>
       <div class="other">
         <img src="./images/内容/内容.png"/>
@@ -59,7 +53,15 @@
       </div>
     </div>
   </div>
-    
-    <script src="scripts.js"></script>
+
+   <!-- 添加的按钮和文件输入元素 -->
+   <button id="uploadForegroundButton">大banner前景图</button>
+   <button id="uploadBackgroundButton">大banner背景图</button>
+   <button id="uploadMiniBannerButton">小banner</button>
+   <input type="file" id="fileInputForeground" accept="image/*" style="display: none;">
+   <input type="file" id="fileInputBackground" accept="image/*" style="display: none;">
+   <input type="file" id="fileInputMiniBanner" accept="image/*" style="display: none;">
+
+  <script src="/scripts.js"></script>
 </body>
 </html>
