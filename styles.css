@@ -7,20 +7,29 @@ body, html {
 .canvas {
     display: flex;
     justify-content: center; /* 弹性盒子沿主轴居中排列 */
-    align-items: center; /* 在中心垂直对齐子分区 */
     flex-wrap: wrap;  /*弹性盒子挤压时可以换行 */
     align-items: flex-start;
 
 }
 
  .phone {
-    width: 370px;
+    width: 375px;
     height: 812px;
     margin: 30px auto;
     background-color: #FFF;
     /* background-color: aqua; */
     flex-direction:column; /* 修改主轴方向*/
-    /* overflow: hidden; */
+    overflow-x: hidden; /* 隐藏水平滚动条并阻止水平滚动 */
+    overflow-y: auto; /* 允许内容在垂直方向上滚动 */
+}
+
+.pad {
+    width: 1025px;
+    height: 812px;
+    margin: 30px auto;
+    background-color: #FFF;
+    /* background-color: aqua; */
+    flex-direction:column; /* 修改主轴方向*/
     overflow-x: hidden; /* 隐藏水平滚动条并阻止水平滚动 */
     overflow-y: auto; /* 允许内容在垂直方向上滚动 */
 }
@@ -94,7 +103,7 @@ body, html {
     width: 100%;
     width: 1025px; /*横幅的最大宽度 */
     height: 323.69px; /* 背景图像的高度 */
-    margin: 100px auto 0; /* 添加100px的顶部空白，并水平居中横幅 */
+    margin: 0px auto 0; /* 添加100px的顶部空白，并水平居中横幅 */
 }
 
 .pad-background-image {
