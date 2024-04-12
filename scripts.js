@@ -43,8 +43,14 @@ document.getElementById('fileInputMiniBanner').addEventListener('change', functi
         var file = e.target.files[0];
         var reader = new FileReader();
         reader.onload = function(e) {
-            document.querySelector('.miniBanner').src = e.target.result;
+            // 选中页面中的所有.miniBannerFirst元素
+            var miniBannerImages = document.querySelectorAll('.miniBannerFirst');
+            // 遍历每个.miniBannerFirst元素并更新其src属性
+            miniBannerImages.forEach(function(img) {
+                img.src = e.target.result;
+            });
         };
         reader.readAsDataURL(file);
     }
 });
+
