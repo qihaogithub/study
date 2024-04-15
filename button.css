@@ -1,12 +1,12 @@
 :root {
-    --yj1: 4px ;
-    --yj2: 8px ;
+    --yj1: 4px;
+    --yj2: 8px;
 }
 
 
 .button_line {
     display: flex;
-    width: 100px;
+    width: 70px;
     height: 32px;
     padding: 0px 8px;
     justify-content: center;
