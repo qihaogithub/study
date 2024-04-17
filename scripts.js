@@ -14,33 +14,36 @@ document.getElementById('uploadMiniBannerButton').addEventListener('click', func
 });
 
 // 监听文件输入元素的change事件
-document.getElementById('fileInputForeground').addEventListener('change', function (e) {
-    if (e.target.files.length > 0) {
-        var file = e.target.files[0];
-        var reader = new FileReader();
-        var image = new Image(); // 创建一个新的Image对象
-        reader.onload = function (e) {
-            image.src = e.target.result; // 设置图片的src属性为读取到的数据URL
-            // 当图片加载完成时，检查其尺寸
-            image.onload = function () {
-                var minWidth = 1248; // 假设最小宽度要求为800像素
-                var minHeight = 384; // 假设最小高度要求为600像素
+// document.getElementById('fileInputForeground').addEventListener('change', function (e) {
+//     if (e.target.files.length > 0) {
+//         var file = e.target.files[0];
+//         var reader = new FileReader();
+//         var image = new Image(); // 创建一个新的Image对象
+//         reader.onload = function (e) {
+//             image.src = e.target.result; // 设置图片的src属性为读取到的数据URL
+//             // 当图片加载完成时，检查其尺寸
+//             image.onload = function () {
+//                 var minWidth = 1248; // 假设最小宽度要求为800像素
+//                 var minHeight = 384; // 假设最小高度要求为600像素
 
-                if (image.width != minWidth || image.height != minHeight) {
-                    // 如果图片尺寸不满足要求，显示错误提示
-                    alert('图片尺寸有误，要求宽度' + minWidth + '像素，高度' + minHeight + '像素。');
-                    document.querySelector('.phone-foreground-image').src = e.target.result;
-                    document.querySelector('.pad-foreground-image').src = e.target.result;
-                } else {
-                    // 如果图片尺寸满足要求，更新页面上的图片元素
-                    document.querySelector('.phone-foreground-image').src = e.target.result;
-                    document.querySelector('.pad-foreground-image').src = e.target.result;
-                }
-            };
-        };
-        reader.readAsDataURL(file);
-    }
-});
+//                 if (image.width != minWidth || image.height != minHeight) {
+//                     // 如果图片尺寸不满足要求，显示错误提示
+//                     alert('图片尺寸有误，要求宽度 ' + minWidth + ' 像素，高度 ' + minHeight + ' 像素。当前图片尺寸为 ' + image.width + ' x ' + image.height + ' 像素。');
+//                     document.querySelector('.phone-foreground-image').src = e.target.result;
+//                     document.querySelector('.pad-foreground-image').src = e.target.result;
+//                 } else {
+//                     // 如果图片尺寸满足要求，更新页面上的图片元素
+//                     document.querySelector('.phone-foreground-image').src = e.target.result;
+//                     document.querySelector('.pad-foreground-image').src = e.target.result;
+//                 }
+//             };
+//         };
+//         reader.readAsDataURL(file);
+//     }
+// });
+
+validateImageDimensions(1248, 384, 'fileInputForeground', '.phone-foreground-image');
+validateImageDimensions(1248, 384, 'fileInputForeground', '.pad-foreground-image');
 
 document.getElementById('fileInputBackground').addEventListener('change', function (e) {
     if (e.target.files.length > 0) {
@@ -56,7 +59,7 @@ document.getElementById('fileInputBackground').addEventListener('change', functi
 
                 if (image.width != minWidth || image.height != minHeight) {
                     // 如果图片尺寸不满足要求，显示错误提示
-                    alert('图片尺寸有误，要求宽度' + minWidth + '像素，高度' + minHeight + '像素。');
+                    alert('图片尺寸有误，要求宽度 ' + minWidth + ' 像素，高度 ' + minHeight + ' 像素。当前图片尺寸为 ' + image.width + ' x ' + image.height + ' 像素。');
                     document.querySelector('.phone-background-image').src = e.target.result;
                     document.querySelector('.pad-background-image').src = e.target.result;
                 } else {
@@ -103,7 +106,7 @@ document.getElementById('fileInputMiniBanner').addEventListener('change', functi
 
                 if (image.width != minWidth || image.height != minHeight) {
                     // 如果图片尺寸不满足要求，显示错误提示
-                    alert('图片尺寸有误，要求宽度' + minWidth + '像素，高度' + minHeight + '像素。');
+                    alert('图片尺寸有误，要求宽度 ' + minWidth + ' 像素，高度 ' + minHeight + ' 像素。当前图片尺寸为 ' + image.width + ' x ' + image.height + ' 像素。');
                     var banners = document.querySelectorAll('.miniBannerFirst');
                     banners.forEach(function (banner) {
                         banner.src = e.target.result;
