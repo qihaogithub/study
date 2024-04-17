@@ -23,11 +23,17 @@ function toggleMenu() {
 function createList() {
     var listContent = document.getElementById('listContent');
     var listItems = `
-<ul>
-    <li><a href="https://www.bidianer.com/" target="_blank">第一项 </a></li>
-    <li>第二项</li>
-    <li>第三项</li>
-</ul>
+    <ul>
+    <li>
+      广场页
+    </li>
+    <li>
+      <ul>
+        <li><a href="index.html" target="_blank">大bnner和小banner</a></li>
+        <li>待补充</li>
+      </ul>
+    </li>
+  </ul>
 `;
     listContent.innerHTML = listItems;
 }
