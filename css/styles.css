@@ -9,6 +9,19 @@ html {
 }
 
 
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    /* 移除默认的外边距 */
+    padding-left: 0px;
+    /* 添加左内边距 */
+}
+
+ul ul {
+    padding-left: 20px;
+    /* 为嵌套列表增加额外的内边距 */
+}
+
 .page {
     display: flex;
     justify-content: space-between;
