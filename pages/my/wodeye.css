@@ -1,5 +1,5 @@
 .mt-13 {
-  margin-top: 0.81rem;
+  margin-top: 1.08rem;
 }
 .page {
   background-color: #ffffff;
@@ -13,134 +13,134 @@
   height: 11.7333vw;
 }
 .top {
-  margin: 0 1.25rem;
-  width: 20.94rem;
-  height: 7.25rem;
+  margin: 0 1.67rem;
+  width: 27.92rem;
+  height: 9.67rem;
 }
 .small_ad {
-  margin: 1.5rem 1.25rem 0;
-  padding: 0 0.88rem;
+  margin: 2rem 1.67rem 0;
+  padding: 0 1.17rem;
   background-color: #fcf9de;
-  border-radius: 1rem;
+  border-radius: 1.33rem;
   overflow: hidden;
 }
 .image_3 {
-  width: 8.69rem;
-  height: 2.13rem;
+  width: 11.58rem;
+  height: 2.83rem;
 }
 .image_4 {
-  width: 7.5rem;
-  height: 2.13rem;
+  width: 10rem;
+  height: 2.83rem;
 }
 .function_icon {
-  margin: 1rem 1.25rem 0;
-  width: 20.94rem;
-  height: 17.38rem;
+  margin: 1.33rem 1.67rem 0;
+  width: 27.92rem;
+  height: 23.17rem;
 }
 .group {
-  margin: 2.06rem 1.25rem 0;
+  margin: 2.75rem 1.67rem 0;
 }
 .group_4 {
-  padding: 0 0.3rem;
+  padding: 0 0.4rem;
 }
 .font {
-  font-size: 1.13rem;
+  font-size: 1.5rem;
   font-family: PingFang SC;
-  line-height: 1.05rem;
+  line-height: 1.4rem;
   color: #666666;
 }
 .text {
-  line-height: 1.05rem;
+  line-height: 1.4rem;
 }
 .group_5 {
-  margin-right: 0.2rem;
-  width: 5.46rem;
+  margin-right: 0.26rem;
+  width: 7.28rem;
 }
 .image_6 {
-  margin-left: 4.46rem;
-  width: 1rem;
-  height: 1rem;
+  margin-left: 5.95rem;
+  width: 1.33rem;
+  height: 1.33rem;
 }
 .text_2 {
-  margin-left: -5.46rem;
+  margin-left: -7.28rem;
   color: #b2b2b2;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-family: PingFang SC;
-  line-height: 0.69rem;
+  line-height: 0.93rem;
 }
 .equal-division-item {
   position: relative;
-  flex: 1 1 10.22rem;
+  flex: 1 1 13.63rem;
 }
 .section_2 {
   background-color: #ff8f44;
-  border-radius: 1rem;
-  box-shadow: 0rem -0.25rem 0.25rem #ff8533 inset;
-  height: 4rem;
+  border-radius: 1.33rem;
+  box-shadow: 0rem -0.33rem 0.33rem #ff8533 inset;
+  height: 5.33rem;
 }
 .image-wrapper {
-  margin: 0 0.48rem;
+  margin: 0 0.65rem;
   background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/658e2df15a7e3f0310c59770/66208246955475001196f266/17134066139064793879.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 3.96rem;
+  height: 5.29rem;
 }
 .image_7 {
   opacity: 0;
-  width: 8.38rem;
-  height: 3.94rem;
+  width: 11.17rem;
+  height: 5.25rem;
 }
 .equal-division-item_2 {
-  flex: 1 1 10.22rem;
+  flex: 1 1 13.63rem;
 }
 .section_3 {
   background-color: #ff715b;
-  border-radius: 1rem;
-  box-shadow: 0rem -0.25rem 0.25rem #ff5f47 inset;
-  height: 3.88rem;
+  border-radius: 1.33rem;
+  box-shadow: 0rem -0.33rem 0.33rem #ff5f47 inset;
+  height: 5.17rem;
 }
 .image-wrapper_2 {
-  margin: 0 0.48rem;
+  margin: 0 0.65rem;
   background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/658e2df15a7e3f0310c59770/66208246955475001196f266/17134066143028840580.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 3.96rem;
+  height: 5.29rem;
 }
 .mall {
-  margin: 1.56rem 1.25rem 0;
+  margin: 2.08rem 1.67rem 0;
 }
 .text_3 {
-  margin-left: 0.33rem;
+  margin-left: 0.44rem;
 }
 .equal-division {
   align-self: stretch;
 }
 .equal-division-item_3 {
   background-color: #fef7e5;
-  border-radius: 1rem;
-  box-shadow: 0rem -0.25rem 0.25rem #fdf1d2 inset;
-  height: 4rem;
+  border-radius: 1.33rem;
+  box-shadow: 0rem -0.33rem 0.33rem #fdf1d2 inset;
+  height: 5.33rem;
 }
 .image-wrapper_3 {
-  margin: 0 0.48rem;
+  margin: 0 0.65rem;
 }
 .view {
   background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/658e2df15a7e3f0310c59770/66208246955475001196f266/17134066145197557904.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 3.96rem;
+  height: 5.29rem;
 }
 .view_2 {
   background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/658e2df15a7e3f0310c59770/66208246955475001196f266/17134066146716941972.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 3.96rem;
+  height: 5.29rem;
 }
 .contact {
-  margin: 1rem 1.25rem 0;
-  width: 20.94rem;
-  height: 5.81rem;
+  margin: 1.33rem 1.67rem 0;
+  width: 27.92rem;
+  height: 7.75rem;
 }
 .tabBar {
-  margin-top: 9.5rem;
+  margin-top: 12.67rem;
 }

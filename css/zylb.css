@@ -1,0 +1,27 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.zyname a {
+    margin: 0.25rem;
+    vertical-align: middle;
+    /* 居中对齐 */
+}
+
+.button_line {
+    display: flex;
+    width: 70px;
+    height: 32px;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    border: 1px solid #E0DFDF;
+    background: #FFF;
+}

@@ -1,14 +1,3 @@
-body,
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow-x: hidden;
-    /* 防止水平滚动*/
-
-}
-
-
 ul {
     list-style-type: none;
     margin-left: 0;
@@ -51,7 +40,6 @@ ul ul {
 }
 
 
-
 /* 画布 */
 .canvas {
     display: flex;
@@ -62,7 +50,7 @@ ul ul {
     /*弹性盒子挤压时可以换行 */
     gap: 2.5rem;
     /* align-items: center; */
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     margin-right: 17rem;
 
