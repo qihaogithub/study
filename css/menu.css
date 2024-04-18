@@ -1,6 +1,7 @@
 #menu-icon {
     cursor: pointer;
     position: fixed;
+    font-size: 1.5rem;
     top: 10px;
     left: 10px;
     transition: opacity 0.3s;
@@ -9,9 +10,11 @@
 .menu-layer {
     display: none;
     position: fixed;
-    top: 40px;
-    left: 10px;
+    top: 3rem;
+    left: 1rem;
     background-color: white;
-    padding: 10px;
+    padding: 0 1rem;
     border: 1px solid #ddd;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.25rem 3.125rem 0rem rgba(0, 0, 0, 0.08);
 }
