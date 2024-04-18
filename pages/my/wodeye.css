@@ -1,0 +1,146 @@
+.mt-13 {
+  margin-top: 0.81rem;
+}
+.page {
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.image {
+  width: 100vw;
+  height: 11.7333vw;
+}
+.top {
+  margin: 0 1.25rem;
+  width: 20.94rem;
+  height: 7.25rem;
+}
+.small_ad {
+  margin: 1.5rem 1.25rem 0;
+  padding: 0 0.88rem;
+  background-color: #fcf9de;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.image_3 {
+  width: 8.69rem;
+  height: 2.13rem;
+}
+.image_4 {
+  width: 7.5rem;
+  height: 2.13rem;
+}
+.function_icon {
+  margin: 1rem 1.25rem 0;
+  width: 20.94rem;
+  height: 17.38rem;
+}
+.group {
+  margin: 2.06rem 1.25rem 0;
+}
+.group_4 {
+  padding: 0 0.3rem;
+}
+.font {
+  font-size: 1.13rem;
+  font-family: PingFang SC;
+  line-height: 1.05rem;
+  color: #666666;
+}
+.text {
+  line-height: 1.05rem;
+}
+.group_5 {
+  margin-right: 0.2rem;
+  width: 5.46rem;
+}
+.image_6 {
+  margin-left: 4.46rem;
+  width: 1rem;
+  height: 1rem;
+}
+.text_2 {
+  margin-left: -5.46rem;
+  color: #b2b2b2;
+  font-size: 0.75rem;
+  font-family: PingFang SC;
+  line-height: 0.69rem;
+}
+.equal-division-item {
+  position: relative;
+  flex: 1 1 10.22rem;
+}
+.section_2 {
+  background-color: #ff8f44;
+  border-radius: 1rem;
+  box-shadow: 0rem -0.25rem 0.25rem #ff8533 inset;
+  height: 4rem;
+}
+.image-wrapper {
+  margin: 0 0.48rem;
+  background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/658e2df15a7e3f0310c59770/66208246955475001196f266/17134066139064793879.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 3.96rem;
+}
+.image_7 {
+  opacity: 0;
+  width: 8.38rem;
+  height: 3.94rem;
+}
+.equal-division-item_2 {
+  flex: 1 1 10.22rem;
+}
+.section_3 {
+  background-color: #ff715b;
+  border-radius: 1rem;
+  box-shadow: 0rem -0.25rem 0.25rem #ff5f47 inset;
+  height: 3.88rem;
+}
+.image-wrapper_2 {
+  margin: 0 0.48rem;
+  background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/658e2df15a7e3f0310c59770/66208246955475001196f266/17134066143028840580.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 3.96rem;
+}
+.mall {
+  margin: 1.56rem 1.25rem 0;
+}
+.text_3 {
+  margin-left: 0.33rem;
+}
+.equal-division {
+  align-self: stretch;
+}
+.equal-division-item_3 {
+  background-color: #fef7e5;
+  border-radius: 1rem;
+  box-shadow: 0rem -0.25rem 0.25rem #fdf1d2 inset;
+  height: 4rem;
+}
+.image-wrapper_3 {
+  margin: 0 0.48rem;
+}
+.view {
+  background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/658e2df15a7e3f0310c59770/66208246955475001196f266/17134066145197557904.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 3.96rem;
+}
+.view_2 {
+  background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/658e2df15a7e3f0310c59770/66208246955475001196f266/17134066146716941972.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 3.96rem;
+}
+.contact {
+  margin: 1rem 1.25rem 0;
+  width: 20.94rem;
+  height: 5.81rem;
+}
+.tabBar {
+  margin-top: 9.5rem;
+}
