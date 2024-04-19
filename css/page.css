@@ -24,39 +24,29 @@
 
 
 .phone {
+    position: relative;
     width: 23.4375rem;
     height: 50.75rem;
-    margin-top: 1rem;
     margin: 1.875rem 0;
     background-color: #FFF;
-
+    display: flex;
     flex-direction: column;
-    /* 修改主轴方向*/
-    overflow-x: hidden;
-    /* 隐藏水平滚动条并阻止水平滚动 */
-    /* 允许内容在垂直方向上滚动 */
-    /* overflow-y: auto;  */
+    align-items: center;
     border-radius: 1.25rem;
     box-shadow: 0rem 0.25rem 3.125rem 0rem rgba(0, 0, 0, 0.08);
 }
 
-.phone::-webkit-scrollbar {
-    display: none;
-    /* 隐藏滚动条 */
-}
 
 .pad {
+    position: relative;
     width: 53.75rem;
     height: 50.75rem;
     margin: 1.875rem 0;
     background-color: #FFF;
+    display: flex;
     flex-direction: column;
     /* 修改主轴方向*/
     align-items: center;
-    overflow-x: hidden;
-    /* 隐藏水平滚动条并阻止水平滚动 */
-    /* 允许内容在垂直方向上滚动 */
-    /* overflow-y: auto; */
     border-radius: 1.25rem;
     box-shadow: 0rem 0.25rem 3.125rem 0rem rgba(0, 0, 0, 0.08);
 

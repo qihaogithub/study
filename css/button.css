@@ -17,3 +17,9 @@
     border: 1px solid #E0DFDF;
     background: #FFF;
 }
+
+
+button:hover {
+    cursor: pointer;
+    /* 小手效果，提示用户可以点击 */
+}
