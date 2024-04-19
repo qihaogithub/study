@@ -10,6 +10,8 @@
 .menu-layer {
     display: none;
     position: fixed;
+    z-index: 999;
+    /* 设置一个较高的数值，确保元素位于页面最上层 */
     top: 3rem;
     left: 1rem;
     background-color: white;
