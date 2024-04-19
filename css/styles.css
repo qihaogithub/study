@@ -11,13 +11,6 @@ ul ul {
     /* 为嵌套列表增加额外的内边距 */
 }
 
-.page {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
 
 
 .menu {
