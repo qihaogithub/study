@@ -94,18 +94,81 @@ ul ul {
     /* 隐藏滚动条 */
 }
 
-.phone .top img {
-    display: block;
-    margin: 0 auto;
-    width: 23.4375rem;
+
+.phone .top,
+.pad .top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-.pad .top img {
-    display: block;
-    margin: 0 auto;
-    width: 53.75rem;
+.phone .navigationBar,
+.pad .navigationBar {
+    display: flex;
+    height: 2.75rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4375rem 1.25rem;
 }
 
+.phone .logo {
+    width: 9.625rem;
+    height: 1.875rem;
+    transform-origin: left center;
+    /* 设置缩放原点为左边中心 */
+    transition: transform 0.3s ease;
+    /* 平滑过渡效果 */
+    /* 添加一个平滑的过渡效果 */
+}
+
+.phone .scan {
+    height: 1.875rem;
+}
+
+.pad .logo {
+    width: 9.625rem;
+    height: 1.875rem;
+    transform-origin: left center;
+    /* 设置缩放原点为左边中心 */
+    transition: transform 0.3s ease;
+    /* 平滑过渡效果 */
+    /* 添加一个平滑的过渡效果 */
+}
+
+.pad .scan {
+    height: 1.875rem;
+}
+
+
+
+/* 内容 */
+
+
+.neirong::-webkit-scrollbar {
+    display: none;
+}
+
+.phone .neirong {
+    /* padding-top: 3rem; */
+    /* display: flex;
+    flex-direction: column; */
+    width: 20.9375rem;
+    gap: 1rem;
+    /* padding-bottom: 100px; */
+    overflow-x: hidden;
+
+}
+
+.pad .neirong {
+    /* padding-top: 3rem;
+    display: flex;
+    flex-direction: column; */
+    width: 48.75rem;
+    gap: 1.25rem;
+    /* padding-bottom: 100px; */
+    overflow-x: hidden;
+
+}
 
 /* 科目 */
 .phone .subject {
@@ -113,13 +176,12 @@ ul ul {
     /* 启用Flexbox布局 */
     justify-content: space-between;
     /* 子元素之间的空间平均分布 */
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     /* 左右内边距为 1rem */
     justify-content: center;
     /* 水平居中子元素 */
     align-items: center;
     /* 垂直居中子元素，如果已经是居中的话，这一行可以省略 */
-    width: 20.9375rem;
     gap: 0.6875rem;
 }
 
@@ -132,7 +194,7 @@ ul ul {
     /* 水平居中子元素 */
     align-items: center;
     /* 垂直居中子元素，如果已经是居中的话，这一行可以省略 */
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     /* 左右内边距为 1rem */
     width: 48.75rem;
     margin: 0 auto;
@@ -310,8 +372,9 @@ ul ul {
     display: flex;
     /* 启用Flexbox布局 */
     margin-top: 1rem;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     /* 左内边距为 1rem */
+    width: 20.9375rem;
     gap: 0.5rem;
 }
 
@@ -325,7 +388,7 @@ ul ul {
     /* 启用Flexbox布局 */
     width: 48.75rem;
     gap: 0.75rem;
-    margin: 1.25rem 2.5rem 0rem 2.5rem;
+    margin: 1.25rem 0 0 0;
 }
 
 .pad .miniBanner img {
@@ -379,4 +442,13 @@ ul ul {
     margin: 0.25rem;
     vertical-align: middle;
     /* 居中对齐 */
+}
+
+
+
+.phone .tabBar,
+.pad .tabBar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
